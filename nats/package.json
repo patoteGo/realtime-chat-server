@@ -1,0 +1,16 @@
+{
+  "name": "realtime-chat-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.18.0"
+  }
+}
